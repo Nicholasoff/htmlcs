@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media on HTML5</title>
+</head>
+<body>
+   <h1>Dynamic image</h1>
+   <p>try open this website in different devices or increase and decrease the size of your browser </p>
+
+   <picture>
+    <source media="(max-width: 750px)" srcset="IMAGES/P.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="IMAGES/M.png" type="image/png">
+    <img src="IMAGES/G.png" alt="IMAGE G">
+   </picture>
+
+   <h1>playing audio</h1>
+   <p>let's go learn play audios in HTML 5</p>
+   <audio preload="metadata" autoplay controls loop>
+    <source src="audio/a-boate-california.mp3" type="audio/mpeg">
+    <source src="audio/a-boate-california.ogg" type="audio/ogg">
+    <source src="audio/a-boate-california.wav" type="audio/wav">
+    <p>Unfortunately your browser does not support audio. <a href="audio/a-boate-california.mp3">click here to dowload the file</a></p>
+    </audio>
+   <!--MP3 WAV OGG-->
+
+</body>
+</html>
